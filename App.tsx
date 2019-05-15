@@ -9,7 +9,7 @@
  */
 
 import React, {Component} from 'react';
-import LandingScreen from './Screens/Landing';
+import LandingScreen from './pages/landing-screen';
 
 /*
 const instructions = Platform.select({
