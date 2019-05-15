@@ -9,7 +9,18 @@
  */
 
 import React, {Component} from 'react';
-import LandingScreen from './pages/landing-screen';
+import {LandingScreen} from './pages/landing-screen';
+import {createStackNavigator, createAppContainer} from 'react-navigation';
+import LettersScreen from './pages/letters-screen';
+import NumbersScreen from './pages/numbers-screen';
+import OptionsScreen from './pages/options-screen';
+
+const MainNavigator = createStackNavigator({
+  Home: {screen: LandingScreen},
+  Letters: {screen: LettersScreen},
+  Numbers: {screen: NumbersScreen},
+  Options: {screen: OptionsScreen},
+});
 
 /*
 const instructions = Platform.select({
@@ -20,11 +31,7 @@ const instructions = Platform.select({
 });
 */
 
-interface Props {}
-export default class App extends Component<Props> {
-  render() {
-    return (
-      <LandingScreen />
-    );
-  }
-}
+
+const App = createAppContainer(MainNavigator);
+
+export default App;
