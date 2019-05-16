@@ -14,9 +14,11 @@ import {createStackNavigator, createAppContainer} from 'react-navigation';
 import LettersScreen from './pages/letters-screen';
 import NumbersScreen from './pages/numbers-screen';
 import OptionsScreen from './pages/options-screen';
+import Home from './screens/home';
 
 const MainNavigator = createStackNavigator({
-  Home: {screen: LandingScreen},
+  Home: {screen: Home},
+  Landing: {screen: LandingScreen},
   Letters: {screen: LettersScreen},
   Numbers: {screen: NumbersScreen},
   Options: {screen: OptionsScreen},
