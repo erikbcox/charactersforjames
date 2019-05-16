@@ -24,13 +24,16 @@ export default StyleSheet.create<Styles>({
         marginBottom: 30,
         flexDirection: 'row',
         justifyContent: 'space-between',
+        //backgroundColor: '#333'
     },
     logoText:{
         flex:2,    
-        marginLeft:20   
+        marginLeft:20   ,
+
+        //backgroundColor:'blue',
+        justifyContent:"center"
     },
     logoTextLine1:{
-        marginTop:48,
         color: "#D8D8D8",
         fontSize:32      ,
         fontWeight:"700",
@@ -38,21 +41,24 @@ export default StyleSheet.create<Styles>({
     },
     logoTextLine2:{
         color: "#D8D8D8",
-        fontSize:50   ,
+        fontSize:46   ,
         fontWeight:"900",  
         lineHeight:52         
     },
     logoView:{
         flex:1,
-        width:125,
+        width:100,
+        //backgroundColor:'green',
+        justifyContent:"center",
+        alignItems:"center",
     },
     logo: {
         borderRadius:25,
-        position: "absolute",
+        /*position: "absolute",
         left: Platform.OS === "android" ? 40 : 50,
-        top: Platform.OS === "android" ? 35 : 60,
+        top: Platform.OS === "android" ? 35 : 60,*/
         width: 100,
-        height: 100
+        height: 100,
     },
     text: {
         color: "#D8D8D8",
