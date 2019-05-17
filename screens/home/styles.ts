@@ -63,7 +63,8 @@ export default StyleSheet.create<Styles>({
     text: {
         color: "#D8D8D8",
         bottom: 6,
-        marginTop: 5
+        marginTop: 5,
+        fontWeight:"700"
     }
     ,
 });

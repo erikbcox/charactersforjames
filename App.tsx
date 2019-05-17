@@ -11,17 +11,22 @@
 import React, {Component} from 'react';
 import {LandingScreen} from './pages/landing-screen';
 import {createStackNavigator, createAppContainer} from 'react-navigation';
-import LettersScreen from './pages/letters-screen';
+import Letters from './screens/letters';
 import NumbersScreen from './pages/numbers-screen';
 import OptionsScreen from './pages/options-screen';
 import Home from './screens/home';
+import { Root } from 'native-base';
 
 const MainNavigator = createStackNavigator({
   Home: {screen: Home},
   Landing: {screen: LandingScreen},
-  Letters: {screen: LettersScreen},
+  Letters: {screen: Letters},
   Numbers: {screen: NumbersScreen},
   Options: {screen: OptionsScreen},
+},
+{
+  initialRouteName: "Home",
+  headerMode: "none"
 });
 
 /*
@@ -34,6 +39,13 @@ const instructions = Platform.select({
 */
 
 
-const App = createAppContainer(MainNavigator);
+//const App = createAppContainer(MainNavigator);
 
-export default App;
+//export default App;
+
+const AppContainer = createAppContainer(MainNavigator);
+
+export default () =>
+  <Root>
+    <AppContainer />
+  </Root>;
