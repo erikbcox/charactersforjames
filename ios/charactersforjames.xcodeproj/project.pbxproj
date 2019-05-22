@@ -64,7 +64,15 @@
 		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
 		F0EC10E9F7B2416FA5A5703A /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 873408605F3A4A1F8FA5BDE8 /* EvilIcons.ttf */; };
 		F1393168C3E744CAB9A30A0B /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5C58451014C3428ABBF67407 /* MaterialCommunityIcons.ttf */; };
-		FA8A52332294FEFB0096D6F8 /* rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA8A52322294FEFB0096D6F8 /* rain.mp3 */; };
+		FA8A523E22957E210096D6F8 /* d.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA8A523522957E200096D6F8 /* d.mp3 */; };
+		FA8A523F22957E210096D6F8 /* g.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA8A523622957E200096D6F8 /* g.mp3 */; };
+		FA8A524022957E210096D6F8 /* h.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA8A523722957E200096D6F8 /* h.mp3 */; };
+		FA8A524122957E210096D6F8 /* i.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA8A523822957E200096D6F8 /* i.mp3 */; };
+		FA8A524222957E210096D6F8 /* a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA8A523922957E200096D6F8 /* a.mp3 */; };
+		FA8A524322957E210096D6F8 /* c.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA8A523A22957E210096D6F8 /* c.mp3 */; };
+		FA8A524422957E210096D6F8 /* f.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA8A523B22957E210096D6F8 /* f.mp3 */; };
+		FA8A524522957E210096D6F8 /* b.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA8A523C22957E210096D6F8 /* b.mp3 */; };
+		FA8A524622957E210096D6F8 /* e.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA8A523D22957E210096D6F8 /* e.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -457,7 +465,15 @@
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		EFA3E25C712B41CB85560023 /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
 		F1D6F17080CA4349AF88A6B0 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
-		FA8A52322294FEFB0096D6F8 /* rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = rain.mp3; path = ../audio/rain.mp3; sourceTree = "<group>"; };
+		FA8A523522957E200096D6F8 /* d.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = d.mp3; path = ../audio/d.mp3; sourceTree = "<group>"; };
+		FA8A523622957E200096D6F8 /* g.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = g.mp3; path = ../audio/g.mp3; sourceTree = "<group>"; };
+		FA8A523722957E200096D6F8 /* h.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = h.mp3; path = ../audio/h.mp3; sourceTree = "<group>"; };
+		FA8A523822957E200096D6F8 /* i.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = i.mp3; path = ../audio/i.mp3; sourceTree = "<group>"; };
+		FA8A523922957E200096D6F8 /* a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = a.mp3; path = ../audio/a.mp3; sourceTree = "<group>"; };
+		FA8A523A22957E210096D6F8 /* c.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = c.mp3; path = ../audio/c.mp3; sourceTree = "<group>"; };
+		FA8A523B22957E210096D6F8 /* f.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = f.mp3; path = ../audio/f.mp3; sourceTree = "<group>"; };
+		FA8A523C22957E210096D6F8 /* b.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = b.mp3; path = ../audio/b.mp3; sourceTree = "<group>"; };
+		FA8A523D22957E210096D6F8 /* e.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = e.mp3; path = ../audio/e.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -604,7 +620,15 @@
 		13B07FAE1A68108700A75B9A /* charactersforjames */ = {
 			isa = PBXGroup;
 			children = (
-				FA8A52322294FEFB0096D6F8 /* rain.mp3 */,
+				FA8A523922957E200096D6F8 /* a.mp3 */,
+				FA8A523C22957E210096D6F8 /* b.mp3 */,
+				FA8A523A22957E210096D6F8 /* c.mp3 */,
+				FA8A523522957E200096D6F8 /* d.mp3 */,
+				FA8A523D22957E210096D6F8 /* e.mp3 */,
+				FA8A523B22957E210096D6F8 /* f.mp3 */,
+				FA8A523622957E200096D6F8 /* g.mp3 */,
+				FA8A523722957E200096D6F8 /* h.mp3 */,
+				FA8A523822957E200096D6F8 /* i.mp3 */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -1325,25 +1349,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8A524622957E210096D6F8 /* e.mp3 in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				FA8A524522957E210096D6F8 /* b.mp3 in Resources */,
+				FA8A524222957E210096D6F8 /* a.mp3 in Resources */,
+				FA8A524322957E210096D6F8 /* c.mp3 in Resources */,
 				BDB1CE2E6D3C4056AB7D41D8 /* Roboto_medium.ttf in Resources */,
+				FA8A524022957E210096D6F8 /* h.mp3 in Resources */,
 				3E0AE3EEB6A4485E93BF85C3 /* Roboto.ttf in Resources */,
 				4B9B107B1AF54457B66741C7 /* rubicon-icon-font.ttf in Resources */,
-				FA8A52332294FEFB0096D6F8 /* rain.mp3 in Resources */,
 				1D9E9EC9D44A4FA79DC179C6 /* AntDesign.ttf in Resources */,
+				FA8A523F22957E210096D6F8 /* g.mp3 in Resources */,
 				152186F8953E44C4BBCC28A7 /* Entypo.ttf in Resources */,
 				F0EC10E9F7B2416FA5A5703A /* EvilIcons.ttf in Resources */,
 				804434F87576483E85BD62BC /* Feather.ttf in Resources */,
 				A6FDAD7B4FD942FE8BC2F7A2 /* FontAwesome.ttf in Resources */,
+				FA8A523E22957E210096D6F8 /* d.mp3 in Resources */,
 				548C3C5163024DEFBC62CC36 /* FontAwesome5_Brands.ttf in Resources */,
 				3F50928D4C554D2B843D18C2 /* FontAwesome5_Regular.ttf in Resources */,
 				EAB94346C7DC41119B91C7AE /* FontAwesome5_Solid.ttf in Resources */,
 				92A217A8F3E84AFE928EF116 /* Foundation.ttf in Resources */,
 				B75B5123D10045C7A4F2B677 /* Ionicons.ttf in Resources */,
+				FA8A524422957E210096D6F8 /* f.mp3 in Resources */,
 				F1393168C3E744CAB9A30A0B /* MaterialCommunityIcons.ttf in Resources */,
 				1C1E652B30734CED80B92EB6 /* MaterialIcons.ttf in Resources */,
 				75D1662F56CB464695793F12 /* Octicons.ttf in Resources */,
+				FA8A524122957E210096D6F8 /* i.mp3 in Resources */,
 				5C252555481F42DA9A60F90C /* SimpleLineIcons.ttf in Resources */,
 				3D5952A646464B70A2B66356 /* Zocial.ttf in Resources */,
 			);

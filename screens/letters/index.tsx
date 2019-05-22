@@ -9,12 +9,11 @@ import {
 import Tts from "react-native-tts";
 import Sound from "react-native-sound"
 
-Tts.addEventListener('tts-start', (event) => console.log("start", event));
-Tts.addEventListener('tts-finish', (event) => console.log("finish", event));
-Tts.addEventListener('tts-cancel', (event) => console.log("cancel", event));
-//Sound.setCategory('Playback');
+Tts.addEventListener('tts-start', (event:any) => console.log("start", event));
+Tts.addEventListener('tts-finish', (event:any) => console.log("finish", event));
+Tts.addEventListener('tts-cancel', (event:any) => console.log("cancel", event));
 
-var whoosh = new Sound('rain.mp3', Sound.MAIN_BUNDLE, (error) => {
+var whoosh = new Sound('a.mp3', Sound.MAIN_BUNDLE , (error) => {
     if (error) {
       console.log('failed to load the sound', error);
       return;
@@ -41,7 +40,7 @@ const Letters: NavigationScreenComponent<Props> = (screenProps) => {
                     </Button>
                 </Left>
                 <Body>
-                    <Title>Header</Title>
+                    <Title>The letter A</Title>
                 </Body>
             <Right />
             </Header>
