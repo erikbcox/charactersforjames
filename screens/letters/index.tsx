@@ -6,6 +6,23 @@ import {
     Right,
     Body, Title, Content, Header
 } from "native-base";
+import Tts from "react-native-tts";
+import Sound from "react-native-sound"
+
+Tts.addEventListener('tts-start', (event) => console.log("start", event));
+Tts.addEventListener('tts-finish', (event) => console.log("finish", event));
+Tts.addEventListener('tts-cancel', (event) => console.log("cancel", event));
+//Sound.setCategory('Playback');
+
+var whoosh = new Sound('rain.mp3', Sound.MAIN_BUNDLE, (error) => {
+    if (error) {
+      console.log('failed to load the sound', error);
+      return;
+    }
+    // loaded successfully
+    console.log('duration in seconds: ' + whoosh.getDuration() + 'number of channels: ' + whoosh.getNumberOfChannels());
+    
+  });
 
 import styles from "./styles";
 import { NavigationScreenProps, NavigationScreenComponent, } from "react-navigation";
@@ -29,7 +46,9 @@ const Letters: NavigationScreenComponent<Props> = (screenProps) => {
             <Right />
             </Header>
             <Content padder>
-                <Text>LETTERS ABC</Text>
+                <Button onPress={()=>Tts.speak('The letter A',{ iosVoiceId: 'com.apple.ttsbundle.Moira-compact' })}><Text>Play tts</Text></Button>
+
+                <Button onPress={()=>whoosh.play(()=>console.log("done"))}><Text>Play rain</Text></Button>
             </Content>
         </Container>
     );
